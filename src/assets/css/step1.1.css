@@ -1,0 +1,228 @@
+@media screen and (min-width:768px) {
+
+    .center {
+        width: 545px;
+        height: 420px;
+        position: absolute;
+        top: 20%!important;
+        left: 50%;
+        margin-left: -280.5px;
+    }
+    .introduce {
+        margin-bottom: 30px;
+    }
+    .introduce h2 {
+        font: 24px/32px '微软雅黑';
+        weight: Medium;
+    }
+    .introduce h6 {
+        font: 18px/32px '微软雅黑';
+    }
+    .step1 .serialnumber {
+        width: 545px;
+        height: 90px;
+      
+    }
+    .step1 .serialnumber .el-step__icon div {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 60px;
+        border-color: #999
+    }
+    .step1 .el-step__line.is-horizontal {
+        top: 32px;
+        left: 63px;
+        height: 2px;
+    }
+    .step1 .el-step__head.is-text.is-process {
+        background-color: #fff ! important;
+        border-color: #ff4949 ! important;
+    }
+   .step1 .el-step__head.is-text.is-wait {
+        color: #999;
+    }
+   .step1 .el-step__head {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 60px;
+    }
+    .step1 .el-icon-check {
+        font: 20px/60px '微软雅黑';
+    }
+    .step1 .el-step__head.is-text.is-success {
+        background: red;
+        border-color: red;
+    }
+    .step1 .el-step.is-horizontal {
+        width: calc(50% - 30px)!important;
+    }
+    .step1 .el-step__title.is-process {
+        color: #333;
+        font-weight: normal;
+    }
+   .step1 .is-success .el-step__line-inner {
+        width: 100% !important;
+    }
+    .step1 .el-step__title.is-success {
+        color: red;
+        font-weight: normal;
+    }
+   .step1  #jj .el-input__inner {
+        border-radius: 25px;
+        margin-top: 15px;
+        height: 50px;
+        text-indent: 18px;
+        border-color: #dedede;
+        color: #4a4a4a;
+    }
+    .step1 #jj .el-form-item.is-error .el-input__inner,
+    .step1 .el-form-item.is-error .el-textarea__inner {
+        border-color: #ff4949;
+    }
+    .step1 .el-button {
+        width: 180px;
+        height: 50px;
+        margin-left: 183px;
+        border-radius: 25px;
+        background: #Eb3349;
+        color: #fff;
+        margin-top: 60px;
+        border: none;
+    }
+    .step1 .el-button:hover {
+        opacity: 0.85;
+        color: #fff;
+    }
+    .step1 .swiper-pagination-bullet-active {
+        background: #fff!important;
+    }
+    .step1 .err{
+        color:#Eb3349;
+        font-size: 12px;
+        position:relative;
+        top:-99px;
+        
+    }
+    .step1 .err-button{
+        width: 180px;
+        height: 50px;
+        margin-left: 183px;
+        border-radius: 25px;
+        background: #bfcbd9;
+        color: #fff;
+        border:none;
+        cursor: not-allowed
+    }
+}
+
+@media screen and (max-width:750px) {
+
+ .step1 .serialnumber {
+        height: 1.8rem;
+        width: 96%;
+    }
+    .step1 .serialnumber .el-step__icon div {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 0.4rem;
+        color: #333;
+        line-height: 1.2rem;
+    }
+    .step1 .el-step__head.is-text.is-process {
+        background-color: #fff ! important;
+        border-color: #ff4949 ! important;
+    }
+    .step1 .el-step__line.is-horizontal {
+        top: 0.62rem;
+        height: 0.04rem;
+        left: 1.29rem;
+        right: 0;
+    }
+    .step1 .el-step__head.is-text.is-wait {
+        color: #999;
+        border-color: #999
+    }
+    .step1 .el-step__head {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        line-height: 1.2rem;
+        font-size: 0.56rem;
+        line-height: 1.28rem;
+        text-align: center;
+    }
+   .step1 .el-step__title.is-wait {
+        color: #999;
+    }
+    .step1 .el-icon-check {
+        font: 0.4rem/1.2rem '微软雅黑';
+    }
+    .step1 .el-step__head.is-text.is-success {
+        background: red;
+        border-color: red;
+    }
+    .step1 .el-step__title.is-process {
+        color: #333;
+        font-weight: normal;
+    }
+    .step1 .el-step__title.is-success {
+        color: red;
+        font-weight: normal;
+    }
+    .step1 #jj .el-input__inner {
+        border-radius: 0.8rem;
+        margin-top: 0.3rem;
+        height: 1rem;
+        border-color: #dedede;
+        ;
+        color: #4a4a4a;
+        text-indent: 0.2rem;
+        width: 100%!important;
+    }
+    .step1 #jj .el-form-item.is-error .el-input__inner,
+    .step1 .el-form-item.is-error .el-textarea__inner {
+        border-color: #ff4949;
+    }
+    .step1 .el-button {
+        width: 3.6rem;
+        height: 1rem;
+        border-radius: 0.5rem;
+        margin-left: 1.35rem;
+        background: #Eb3349;
+        color: #fff;
+        opacity: 0.5;
+        outline-style: none;
+    }
+    .step1 .btn:hover {
+        opacity: 0.85;
+        border: none;
+        color: #fff;
+    }
+    .step1 .el-button:hover {
+        opacity: 1;
+        color: #fff;
+    }
+    .step1 .el-step.is-horizontal {
+        width: calc(42.2%)!important;
+    }
+    .step1 .el-button:hover {
+        border-color: none;
+    }
+     .step1 .err{
+        color:#Eb3349;
+        font-size: 12px;
+        position:relative;
+        top:-2rem;
+        
+    }
+}

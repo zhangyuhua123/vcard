@@ -1,0 +1,309 @@
+@media screen and (min-width:768px) {
+  
+    .center {
+        width: 545px;
+        height: 668px;
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        margin-left: -280.5px;
+    }
+    .introduce {
+        margin-bottom: 30px;
+    }
+    .introduce h2 {
+        font: 24px/32px '微软雅黑';
+        weight: Medium;
+    }
+    .introduce h6 {
+        font: 18px/32px '微软雅黑';
+    }
+    .step3 .serialnumber {
+        width: 545px;
+        height: 90px;
+    }
+   .step3 .serialnumber .el-step__icon div {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 60px;
+        border-color: #999
+    }
+    .step3 .el-step__line.is-horizontal {
+        top: 32px;
+        left: 63px;
+        height: 2px;
+    }
+   .step3 .el-step__head.is-text.is-process {
+        background-color: #fff ! important;
+    }
+    .step3 .el-step__head.is-text.is-wait {
+        color: #999;
+    }
+    .step3 .el-step__head {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 60px;
+    }
+    .step3 .el-icon-check {
+        font: 20px/60px '微软雅黑';
+    }
+    .step3 .el-step__head.is-text.is-success {
+        background: red;
+        border-color: red;
+    }
+    .step3 .el-step.is-horizontal {
+        width: calc(50% - 30px)!important;
+    }
+    .step3 .el-step__title.is-process {
+        color: #333;
+        font-weight: normal;
+    }
+    .step3 .el-step__title.is-success {
+        color: red;
+        font-weight: normal;
+    }
+    .step3 .share {
+        width: 530px;
+        height: 310px;
+        background-image: url(../img/share1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        padding-top: 20px;
+        position: relative;
+    }
+    .step3 .share #num {
+        font: 115px/115px impact;
+        margin-top: 90px;
+        margin-left: 204px;
+        color: #fff;
+    }
+    .step3 .share .share-logo {
+        width: 112px;
+        height: 22px;
+        background-image: url(../img/biglogo.png);
+        position: absolute;
+        top: 28px;
+        left: 30px;
+    }
+    .step3 .share p {
+        font: 16px/16px '微软雅黑';
+        margin-bottom: 30px;
+        position: absolute;
+        right: 30px;
+        color: #fff;
+    }
+    .step3 .share span {
+        display: block;
+        position: absolute;
+        right: 30px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: Semibold;
+        top: 28px
+    }
+    .step3 .el-input__inner {
+        border-radius: 25px;
+        margin-top: 15px;
+        border-color: #dedede;
+        color: #4a4a4a;
+    }
+    .step3 #servier {
+        margin-top: 21px;
+    }
+    .step3 .el-button {
+        width: 180px;
+        height: 50px;
+        margin-left: 183px;
+        border-radius: 25px;
+        background: #Eb3349;
+        color: #fff;
+        border: none;
+    }
+    .step3 .el-button:hover {
+        opacity: 0.85;
+        border: none;
+        color: #fff;
+    }
+    .step3 .btn {
+        margin-top: 40px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 768px){
+
+.center {
+        width: 545px;
+        height: 668px;
+        position: absolute;
+        top: 12%!important;
+        left: 50%;
+        margin-left: -280.5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+
+}
+
+@media screen and (max-width:750px) {
+    
+    .step3 .serialnumber {
+        height: 1.8rem;
+        width: 100%;
+        ;
+    }
+    .step3 .serialnumber .el-step__icon div {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 0.4rem;
+        color: #333;
+        line-height: 1.2rem;
+    }
+    .step3 .el-step__line.is-horizontal {
+        top: 0.62rem;
+        height: 0.04rem;
+        left: 1.29rem;
+        right: 0;
+    }
+    .step3 .el-step__head.is-text.is-wait {
+        color: #999;
+        border-color: #999
+    }
+    .step3 .is-success .el-step__line-inner {
+        width: 100% !important;
+    }
+    .step3 .el-step.is-horizontal {
+        width: calc(40.4%)!important;
+    }
+    .step3 .el-step__head {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        line-height: 1.2rem;
+        font-size: 0.56rem;
+        line-height: 1.28rem;
+        text-align: center;
+    }
+    .step3 .el-step__title.is-wait {
+        color: #999;
+    }
+    .step3 .el-icon-check {
+        font: 0.4rem/1.2rem '微软雅黑';
+    }
+    .step3 .el-step__head.is-text.is-success {
+        background: red;
+        border-color: red;
+    }
+    .step3 .el-step__title.is-process {
+        color: #333;
+        font-weight: normal;
+    }
+    .step3 .el-step__title.is-success {
+        color: red;
+        font-weight: normal;
+    }
+    .step3 .el-step__head.is-text.is-process {
+        background-color: #fff ! important;
+        border-color: #ff4949 ! important;
+    }
+    .step3 .share {
+        background-image: url(../img/card1.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 3.92rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.2rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .step3 .share .share-logo {
+        background-image: url(../img/logo.png);
+        position: absolute;
+        top: 0.34rem;
+        left: 0.39rem;
+        width: 71px;
+        height: 14px;
+    }
+    .step3 .share span {
+        display: block;
+        position: absolute;
+        top: 0.34rem;
+        right: 0.38rem;
+        color: #fff;
+        font-size: 15px;
+        font-weight: Semibold;
+    }
+    .step3 .share #num {
+        font: 1.44rem/1.44rem impact;
+        color: #fff;
+        margin-left: 2.6rem;
+        margin-top: 1.2rem;
+        margin-bottom: 0.22rem;
+    }
+    .step3 .share p {
+        font-size: 0.21rem/0.21rem '微乳雅黑';
+        color: #fff;
+        margin-left: 2.6rem;
+        width: 5rem;
+    }
+    .step3 #jj .el-input__inner {
+        border-radius: 0.3rem;
+        margin-top: 0.15rem;
+        height: 0.7rem;
+        display: none;
+        border-color: #dedede;
+        color: #4a4a4a;
+    }
+    .step3 .success {
+        font-size: 0.28rem;
+        margin-bottom: 0.22rem;
+        height: 0.8rem;
+        display: block;
+        margin-top: 0.6rem;
+    }
+    .step3 .el-button {
+        width: 3.6rem;
+        height: 1rem;
+        margin-left: 1.98rem;
+        border-radius: 0.25rem;
+        background: #Eb3349;
+        color: #fff;
+        border: none;
+    }
+    .step3 .el-button:hover {
+        opacity: 0.85;
+        border: none;
+        color: #fff;
+    }
+    .step3 .yanzheng {
+        display: none;
+    }
+    .step3 .begin {
+        display: none;
+    }
+    .step3 .btn {
+        margin-top: 0.6rem;
+        height: 0.8rem;
+    }
+}
+.step3 .spinner {
+    margin: 100px auto;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* display: none; */
+    top: 80%;
+    left: 47%;
+}
